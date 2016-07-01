@@ -4,11 +4,10 @@ module.exports = {
     "browser": true,
     "es6": true
   },
-  "extends": "eslint:recommended",
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "rules": {
+    // Indendation and line-breaks
     "indent": [
       "error",
       2,
@@ -18,22 +17,50 @@ module.exports = {
       "error",
       "unix"
     ],
+
+    // Be consistent when using quotes, and when using them, use single quotes.
+    "quote-props": ["error", "consistent"],
     "quotes": [
       "error",
       "single"
     ],
+
+    // Always end a line with a semicolon
     "semi": [
       "error",
       "always"
     ],
-    "no-console": [
-      "off"
-    ]
+
+    // Functions are not appended with a space, keywords are
+    "space-before-function-paren": [
+      "error", 
+      "never"
+    ],
+    "keyword-spacing": "error",
+
+    // Use type-safe equality operators
+    "eqeqeq": ["error", "always"],
+    
+    // Prevent typing useless code
+    "no-else-return": "error",
+    "no-empty-function": "error",
+    "no-lone-blocks": "error",
+    "no-lonely-if": "error",
+    "no-multi-spaces": "error",
+    "no-unused-expressions": "error",
+    "no-use-before-define": "error",
+    "no-useless-constructor": "error",
+
+    // Other styling rules
+    "init-declarations": ["error", "always"],
+    "brace-style": "error",
+    "comma-dangle": ["error", "never"],
+    "no-alert": "error",
+    
+    // Only during development
+    "no-console": ["off"]
   },
   "globals": {
-    "React": true,
-    "Render": true,
-    "Layout": true,
     "__DEV__": true
   }
 };
