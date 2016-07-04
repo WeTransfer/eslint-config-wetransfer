@@ -42,17 +42,17 @@ module.exports = {
     "eqeqeq": ["error", "always"],
     
     // Prevent typing useless code
+    "no-unused-vars": "error",
     "no-else-return": "error",
     "no-empty-function": "error",
     "no-lone-blocks": "error",
     "no-lonely-if": "error",
     "no-multi-spaces": "error",
-    "no-unused-expressions": "error",
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
     "no-use-before-define": "error",
     "no-useless-constructor": "error",
 
     // Other styling rules
-    "init-declarations": ["error", "always"],
     "brace-style": "error",
     "comma-dangle": ["error", "never"],
     "no-alert": "error",
