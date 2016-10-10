@@ -61,6 +61,7 @@ module.exports = {
     "no-console": ["off"]
   },
   "globals": {
-    "__DEV__": true
+    "__DEV__": true,
+    "global": true
   }
 };
