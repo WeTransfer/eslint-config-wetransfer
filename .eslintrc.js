@@ -56,6 +56,7 @@ module.exports = {
     "brace-style": "error",
     "comma-dangle": ["error", "never"],
     "no-alert": "error",
+    "react/no-find-dom-node": "warn",
     
     // Only during development
     "no-console": ["off"]
