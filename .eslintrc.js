@@ -59,7 +59,15 @@ module.exports = {
     "react/no-find-dom-node": "warn",
     
     // Only during development
-    "no-console": ["off"]
+    "no-console": ["off"],
+
+
+    // React
+    "react/no-deprecated": ["warn"],
+    "react/no-string-refs": ["warn"],
+    "react/jsx-key": ["warn"],
+    "react/jsx-no-target-blank": ["warn"],
+    "react/no-unescaped-entities": ["warn"]
   },
   "globals": {
     "__DEV__": true,
