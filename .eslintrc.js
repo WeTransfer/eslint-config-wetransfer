@@ -66,7 +66,6 @@ module.exports = {
     "react/no-deprecated": ["warn"],
     "react/no-string-refs": ["warn"],
     "react/jsx-key": ["warn"],
-    "react/jsx-no-target-blank": ["warn"],
     "react/no-unescaped-entities": ["warn"]
   },
   "globals": {
