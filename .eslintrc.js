@@ -24,7 +24,7 @@ module.exports = {
       "error",
       "single"
     ],
-
+ 
     // Always end a line with a semicolon
     "semi": [
       "error",
@@ -65,7 +65,6 @@ module.exports = {
     // React
     "react/no-deprecated": ["warn"],
     "react/no-string-refs": ["warn"],
-    "react/jsx-key": ["warn"],
     "react/no-unescaped-entities": ["warn"]
   },
   "globals": {
