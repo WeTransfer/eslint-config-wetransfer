@@ -1,11 +1,4 @@
 module.exports = {
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "plugins": ["react"],
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "rules": {
     // Indendation and line-breaks
     "indent": [
@@ -39,7 +32,10 @@ module.exports = {
     "keyword-spacing": "error",
 
     // Use type-safe equality operators
-    "eqeqeq": ["error", "always"],
+    "eqeqeq": [
+      "error", 
+      "always"
+    ],
     
     // Prevent typing useless code
     "no-unused-vars": "error",
@@ -48,7 +44,12 @@ module.exports = {
     "no-lone-blocks": "error",
     "no-lonely-if": "error",
     "no-multi-spaces": "error",
-    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "no-unused-expressions": [
+      "error", 
+      { 
+        "allowShortCircuit": true 
+      }
+    ],
     "no-use-before-define": "error",
     "no-useless-constructor": "error",
 
@@ -58,17 +59,12 @@ module.exports = {
     "no-alert": "error",
     "react/no-find-dom-node": "warn",
     
-    // Only during development
+    // Only because we want this in development and eslint is not really context based.
     "no-console": ["off"],
-
 
     // React
     "react/no-deprecated": ["warn"],
     "react/no-string-refs": ["warn"],
     "react/no-unescaped-entities": ["warn"]
-  },
-  "globals": {
-    "__DEV__": true,
-    "global": true
   }
 };
