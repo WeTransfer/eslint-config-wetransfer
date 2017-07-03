@@ -1,0 +1,25 @@
+{
+  "name": "wetransfer-eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for WeTransfer repos",
+  "license": "UNLICENSED",
+  "main": ".eslintrc.js",
+  "author": "WeTransfer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wetransfer/wetransfer-eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "linter",
+    "style",
+    "wetransfer",
+    "code",
+    "style"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wetransfer/wetransfer-eslint-config/issues"
+  },
+  "homepage": "https://github.com/wetransfer/wetransfer-eslint-config#readme"
+}
