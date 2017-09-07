@@ -1,10 +1,16 @@
 module.exports = {
+  "plugins": ["import"],
+  "extends": [
+    "plugin:import/errors"
+  ],
   "rules": {
     // Indendation and line-breaks
     "indent": [
       "error",
       2,
-      { "SwitchCase": 1 },
+      {
+        "SwitchCase": 1
+      },
     ],
     "linebreak-style": [
       "error",
@@ -12,31 +18,42 @@ module.exports = {
     ],
 
     // Be consistent when using quotes, and when using them, use single quotes.
-    "quote-props": ["error", "consistent"],
+    "quote-props": [
+      "error",
+      "consistent"
+    ],
     "quotes": [
       "error",
       "single"
     ],
- 
+
     // Always end a line with a semicolon
     "semi": [
       "error",
       "always"
     ],
 
-    // Functions are not appended with a space, keywords are
-    "space-before-function-paren": [
-      "error", 
-      "never"
+    // Function and keyword styling
+    "space-before-function-paren": ["error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
     ],
+    "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
+    "no-confusing-arrow": "error",
+    "arrow-spacing": "error",
     "keyword-spacing": "error",
+    "arrow-parens": "error",
+    "no-param-reassign": [ "off", { "props": true } ],
 
     // Use type-safe equality operators
     "eqeqeq": [
-      "error", 
+      "error",
       "always"
     ],
-    
+
     // Prevent typing useless code
     "no-unused-vars": "error",
     "no-else-return": "error",
@@ -45,26 +62,41 @@ module.exports = {
     "no-lonely-if": "error",
     "no-multi-spaces": "error",
     "no-unused-expressions": [
-      "error", 
-      { 
-        "allowShortCircuit": true 
+      "error",
+      {
+        "allowShortCircuit": true
       }
     ],
     "no-use-before-define": "error",
     "no-useless-constructor": "error",
+    "prefer-const": "error",
+    "prefer-spread": "error",
 
     // Other styling rules
     "brace-style": "error",
-    "comma-dangle": ["error", "never"],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
     "no-alert": "error",
-    "react/no-find-dom-node": "warn",
-    
-    // Only because we want this in development and eslint is not really context based.
-    "no-console": ["off"],
+    "no-useless-escape": "off",
+    "no-trailing-spaces": "error",
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1,
+        "maxBOF": 0
+      }
+    ],
+    "yoda": "error",
+    "curly": [ "error", "all" ],
+    "no-loop-func": "error",
+    "no-multi-str": "error",
+    "no-return-assign": "error",
+    "vars-on-top": "error",
 
-    // React
-    "react/no-deprecated": ["warn"],
-    "react/no-string-refs": ["warn"],
-    "react/no-unescaped-entities": ["warn"]
+    // Imports
+    "import/order": ["error", {"newlines-between": "always-and-inside-groups"}],
   }
-};
+}

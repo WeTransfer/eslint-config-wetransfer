@@ -1,5 +1,5 @@
 {
-  "name": "wetransfer-eslint-config",
+  "name": "eslint-config-wetransfer",
   "version": "1.0.0",
   "description": "ESLint shareable config for WeTransfer repos",
   "license": "UNLICENSED",
@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/wetransfer/wetransfer-eslint-config/issues"
   },
-  "homepage": "https://github.com/wetransfer/wetransfer-eslint-config#readme"
+  "homepage": "https://github.com/wetransfer/wetransfer-eslint-config#readme",
+  "devDependencies": {
+    "eslint": "4.6.1",
+    "eslint-import-resolver-webpack": "0.8.3",
+    "eslint-plugin-import": "2.7.0",
+  }
 }
