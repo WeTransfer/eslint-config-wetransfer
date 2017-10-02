@@ -2,7 +2,7 @@
   "name": "eslint-config-wetransfer",
   "version": "1.0.0",
   "description": "ESLint shareable config for WeTransfer repos",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "index.js",
   "author": "WeTransfer",
   "repository": {
