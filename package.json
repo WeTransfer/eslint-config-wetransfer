@@ -7,27 +7,28 @@
   "author": "WeTransfer",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wetransfer/wetransfer-eslint-config.git"
+    "url": "git+https://github.com/wetransfer/eslint-config-wetransfer.git"
   },
   "keywords": [
     "eslint",
+    "eslintconfig",
     "linter",
     "style",
     "wetransfer",
     "code",
     "style"
   ],
-  "author": "",
   "bugs": {
-    "url": "https://github.com/wetransfer/wetransfer-eslint-config/issues"
+    "url": "https://github.com/wetransfer/eslint-config-wetransfer/issues"
   },
-  "homepage": "https://github.com/wetransfer/wetransfer-eslint-config#readme",
+  "homepage": "https://github.com/wetransfer/eslint-config-wetransfer#readme",
   "scripts": {
     "test": "node spec/index.js"
   },
+  "peerDependencies": {
+    "eslint": ">=4"
+  },
   "devDependencies": {
-    "eslint": "4.6.1",
-    "eslint-import-resolver-webpack": "0.8.3",
-    "eslint-plugin-import": "2.7.0"
+    "eslint": "4.8.0"
   }
 }
