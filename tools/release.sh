@@ -2,7 +2,7 @@
 
 set -e
 
-BRANCH_NAME="$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')"
+BRANCH_NAME=${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}
 
 if [[ $BRANCH_NAME = "master" ]]
 then

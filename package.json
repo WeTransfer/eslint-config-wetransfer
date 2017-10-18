@@ -8,10 +8,7 @@
     "index.js"
   ],
   "author": "WeTransfer",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wetransfer/eslint-config-wetransfer.git"
-  },
+  "repository": "wetransfer/eslint-config-wetransfer",
   "keywords": [
     "eslint",
     "eslintconfig",
