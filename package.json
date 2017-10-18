@@ -1,9 +1,12 @@
 {
-  "name": "eslint-config-wetransfer",
+  "name": "@wetransfer/eslint-config-wetransfer",
   "version": "1.0.0",
   "description": "ESLint shareable config for WeTransfer repos",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "author": "WeTransfer",
   "repository": {
     "type": "git",
@@ -23,12 +26,18 @@
   },
   "homepage": "https://github.com/wetransfer/eslint-config-wetransfer#readme",
   "scripts": {
+    "semantic-release": "eslint-release",
+    "semantic-release-ci": "tools/release.sh",
     "test": "node spec/index.js"
   },
   "peerDependencies": {
     "eslint": ">=4"
   },
   "devDependencies": {
-    "eslint": "4.8.0"
+    "eslint": "4.8.0",
+    "eslint-release": "0.10.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
