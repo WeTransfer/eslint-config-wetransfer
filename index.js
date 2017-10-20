@@ -145,9 +145,6 @@ module.exports = {
       }
     ],
 
-    // No yoda conditions. I think we want the opposite.
-    'yoda': 'error',
-
     // Require curly braces
     'curly': [ 'error', 'all' ],
 
