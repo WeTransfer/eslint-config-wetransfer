@@ -8,7 +8,10 @@
     "index.js"
   ],
   "author": "WeTransfer",
-  "repository": "wetransfer/eslint-config-wetransfer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wetransfer/eslint-config-wetransfer"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -23,8 +26,7 @@
   },
   "homepage": "https://github.com/wetransfer/eslint-config-wetransfer#readme",
   "scripts": {
-    "semantic-release": "eslint-release",
-    "semantic-release-ci": "tools/release.sh",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "node spec/index.js"
   },
   "peerDependencies": {
@@ -32,7 +34,7 @@
   },
   "devDependencies": {
     "eslint": "4.8.0",
-    "eslint-release": "0.10.3"
+    "semantic-release": "8.2.0"
   },
   "publishConfig": {
     "access": "public"

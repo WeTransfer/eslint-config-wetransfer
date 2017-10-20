@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.com/WeTransfer/eslint-config-wetransfer.svg?token=BrByTtLgfVKqDJ6GzD2p&branch=master)](https://travis-ci.com/WeTransfer/eslint-config-wetransfer)
+[![npm-version](https://badge.fury.io/js/%40wetransfer%2Feslint-config-wetransfer.svg)](https://badge.fury.io/js/%40wetransfer%2Feslint-config-wetransfer.svg)
+[![Build Status](https://travis-ci.org/WeTransfer/eslint-config-wetransfer.svg?branch=master)](https://travis-ci.com/WeTransfer/eslint-config-wetransfer)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
 
 # WeTransfer ESLint Config
 This package provides WeTransfer's base .eslintrc as an extensible shared config.
