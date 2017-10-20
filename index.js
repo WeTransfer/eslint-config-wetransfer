@@ -129,8 +129,8 @@ module.exports = {
     // Disallow Use of Alert
     'no-alert': 'error',
 
-    // Allow usesless espaces
-    'no-useless-escape': 'off',
+    // Disallow useless scape
+    'no-useless-escape': 'error',
 
     // No explanation needed.
     'no-trailing-spaces': 'error',
