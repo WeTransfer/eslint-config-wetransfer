@@ -5,7 +5,8 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "react.js"
   ],
   "author": "WeTransfer",
   "repository": {
