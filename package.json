@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "eslint": "4.15.0",
-    "semantic-release": "8.2.3"
+    "semantic-release": "12.2.2"
   },
   "publishConfig": {
     "access": "public"
