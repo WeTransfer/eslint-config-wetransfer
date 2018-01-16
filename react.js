@@ -5,6 +5,6 @@ module.exports = {
     'react/no-deprecated': ['error'],
     'react/no-string-refs': ['error'],
     'react/no-unescaped-entities': ['warn'],
-    'react/jsx-indent': [2, 2],
+    'react/jsx-indent': [2, 2]
   }
 };

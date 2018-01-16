@@ -5,6 +5,7 @@ const config = require('../');
 // The source files to test.
 const repoFiles = [
   'index.js',
+  'react.js',
   'spec/index.js'
 ];
 
