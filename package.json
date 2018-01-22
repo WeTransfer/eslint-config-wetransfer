@@ -34,7 +34,7 @@
     "eslint": ">=4"
   },
   "devDependencies": {
-    "eslint": "4.15.0",
+    "eslint": "4.16.0",
     "semantic-release": "8.2.3"
   },
   "publishConfig": {
