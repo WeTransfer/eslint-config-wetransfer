@@ -13,7 +13,7 @@ const repoFiles = [
 const eslintOpts = {
   useEslintrc: false,
   envs: ['node', 'es6'],
-  parserOptions: {ecmaVersion: 2017},
+  parserOptions: { ecmaVersion: 2017 },
   rules: config.rules
 };
 
