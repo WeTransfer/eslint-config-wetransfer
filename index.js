@@ -62,6 +62,9 @@ module.exports = {
     // Spaces for keywords
     'keyword-spacing': 'error',
 
+    // Spaces in object definitions
+    'object-curly-spacing': 'error',
+
     // Arrow function arguments parenthesis
     'arrow-parens': 'error',
 
@@ -134,6 +137,9 @@ module.exports = {
 
     // No explanation needed.
     'no-trailing-spaces': 'error',
+
+    // Close every file with an empty line
+    'eol-last': 'error',
 
     // Only one empty line please
     'no-multiple-empty-lines': [
