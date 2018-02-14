@@ -63,7 +63,7 @@ module.exports = {
     'keyword-spacing': 'error',
 
     // Spaces in object definitions
-    'object-curly-spacing': 'error',
+    'object-curly-spacing': ['error', 'always'],
 
     // Arrow function arguments parenthesis
     'arrow-parens': 'error',
