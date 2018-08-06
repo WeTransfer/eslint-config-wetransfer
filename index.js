@@ -123,11 +123,14 @@ module.exports = {
     // Consistent brace style for blocks.
     'brace-style': 'error',
 
-    // Disallow trailing commas
-    'comma-dangle': [
-      'error',
-      'never'
-    ],
+    // Allow dangling commas to improve git diffs
+    'comma-dangle': ['error', {
+      'arrays': 'always-multiline',
+      'objects': 'always-multiline',
+      'imports': 'always-multiline',
+      'exports': 'always-multiline',
+      'functions': 'ignore',
+    }],
 
     // Disallow Use of Alert
     'no-alert': 'error',
