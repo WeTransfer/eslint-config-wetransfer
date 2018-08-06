@@ -34,10 +34,14 @@
     "eslint": ">=4"
   },
   "devDependencies": {
+    "condition-circle": "2.0.1",
     "eslint": "5.0.1",
     "semantic-release": "8.2.3"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
   }
 }
