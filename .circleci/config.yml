@@ -38,6 +38,9 @@ jobs:
       - restore_cache:
           key: npm-dependencies-{{ checksum "package.json" }}
       - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      - run:
           name: Semantic release
           command: npm run semantic-release
 
