@@ -27,21 +27,20 @@
   },
   "homepage": "https://github.com/wetransfer/eslint-config-wetransfer#readme",
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "release": "semantic-release --no-ci",
+    "release:dry": "semantic-release --no-ci --dry-run",
     "test": "node spec/index.js"
   },
   "peerDependencies": {
     "eslint": ">=4"
   },
   "devDependencies": {
-    "condition-circle": "2.0.1",
+    "@semantic-release/changelog": "3.0.0",
+    "@semantic-release/git": "7.0.1",
     "eslint": "5.3.0",
-    "semantic-release": "8.2.3"
+    "semantic-release": "15.9.5"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "release": {
-    "verifyConditions": "condition-circle"
   }
 }
