@@ -27,6 +27,6 @@ module.exports = {
     'react/prefer-stateless-function': 'warn',
 
     // Components without children should be self-closing to avoid unnecessary extra closing tag.
-    'react/self-closing-comp': 'error'
-  }
+    'react/self-closing-comp': 'error',
+  },
 };
