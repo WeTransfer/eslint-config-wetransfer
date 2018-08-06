@@ -6,32 +6,32 @@ module.exports = {
       2,
       {
         // Indentation level for case clauses in switch statements
-        'SwitchCase': 1
-      }
+        'SwitchCase': 1,
+      },
     ],
 
     // Unix style line breaks
     'linebreak-style': [
       'error',
-      'unix'
+      'unix',
     ],
 
     // Be consistent when using quotes on property names
     'quote-props': [
       'error',
-      'consistent'
+      'consistent',
     ],
 
     // Use single quotes
     'quotes': [
       'error',
-      'single'
+      'single',
     ],
 
     // Always end a line with a semicolon
     'semi': [
       'error',
-      'always'
+      'always',
     ],
 
     // Spaces between functions and parenthesis
@@ -40,8 +40,8 @@ module.exports = {
       {
         'anonymous': 'never',
         'named': 'never',
-        'asyncArrow': 'always'
-      }
+        'asyncArrow': 'always',
+      },
     ],
 
     // Function declaration styles
@@ -49,8 +49,8 @@ module.exports = {
       'error',
       'declaration',
       {
-        'allowArrowFunctions': true
-      }
+        'allowArrowFunctions': true,
+      },
     ],
 
     // Confusion with comparisons and arrow functions
@@ -72,14 +72,14 @@ module.exports = {
     'no-param-reassign': [
       'off',
       {
-        'props': true
-      }
+        'props': true,
+      },
     ],
 
     // Use type-safe equality operators.
     'eqeqeq': [
       'error',
-      'always'
+      'always',
     ],
 
     // Prevent typing useless code
@@ -104,8 +104,8 @@ module.exports = {
     'no-unused-expressions': [
       'error',
       {
-        'allowShortCircuit': true
-      }
+        'allowShortCircuit': true,
+      },
     ],
 
     // Disallow early use of variables and functions
@@ -150,8 +150,8 @@ module.exports = {
       {
         'max': 1,
         'maxEOF': 1,
-        'maxBOF': 0
-      }
+        'maxBOF': 0,
+      },
     ],
 
     // Require curly braces
@@ -167,6 +167,6 @@ module.exports = {
     'no-return-assign': 'error',
 
     // Require variable declarations to be at the top of their scope
-    'vars-on-top': 'error'
-  }
+    'vars-on-top': 'error',
+  },
 };
