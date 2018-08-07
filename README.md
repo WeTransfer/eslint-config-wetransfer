@@ -51,4 +51,4 @@ The package is available as open source under the terms of the [MIT License](htt
 
 ## Code of Conduct
 
-Everyone interacting in the WetransferJSSdk project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/WeTransfer/eslint-config-wetransfer/blob/master/.github/CODE_OF_CONDUCT.md).
+Everyone interacting with WeTransfer project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/WeTransfer/eslint-config-wetransfer/blob/master/.github/CODE_OF_CONDUCT.md).
