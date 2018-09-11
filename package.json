@@ -36,9 +36,9 @@
   },
   "devDependencies": {
     "@semantic-release/changelog": "3.0.0",
-    "@semantic-release/git": "7.0.3",
+    "@semantic-release/git": "7.0.4",
     "eslint": "5.3.0",
-    "semantic-release": "15.9.14"
+    "semantic-release": "15.9.15"
   },
   "publishConfig": {
     "access": "public"
