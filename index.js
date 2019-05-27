@@ -108,8 +108,13 @@ module.exports = {
       },
     ],
 
-    // Disallow early use of variables and functions
-    'no-use-before-define': 'error',
+    // Disallow early use of variables. Function "hoisting" declaration is allowed.
+    'no-use-before-define': [
+      'error',
+      {
+        'functions': false,
+      },
+    ],
 
     // Disallow unnecessary constructor
     'no-useless-constructor': 'error',
