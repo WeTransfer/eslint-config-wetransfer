@@ -1,6 +1,6 @@
 {
   "name": "@wetransfer/eslint-config-wetransfer",
-  "version": "3.1.0",
+  "version": "3.0.0",
   "description": "ESLint shareable config for WeTransfer repos",
   "license": "MIT",
   "main": "index.js",
