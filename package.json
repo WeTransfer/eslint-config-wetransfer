@@ -1,6 +1,6 @@
 {
   "name": "@wetransfer/eslint-config-wetransfer",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "ESLint shareable config for WeTransfer repos",
   "license": "MIT",
   "main": "index.js",
@@ -38,7 +38,7 @@
     "@semantic-release/changelog": "3.0.4",
     "@semantic-release/git": "7.0.16",
     "eslint": "6.1.0",
-    "semantic-release": "15.13.18"
+    "semantic-release": "15.13.19"
   },
   "publishConfig": {
     "access": "public"
