@@ -35,10 +35,10 @@
     "eslint": ">=4"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "3.0.4",
-    "@semantic-release/git": "7.0.16",
+    "@semantic-release/changelog": "3.0.6",
+    "@semantic-release/git": "7.0.18",
     "eslint": "6.5.1",
-    "semantic-release": "15.13.24"
+    "semantic-release": "15.14.0"
   },
   "resolutions": {
     "cryptiles": "4.1.2",
