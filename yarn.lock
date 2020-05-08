@@ -4466,10 +4466,10 @@ stringify-package@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/stringify-package/-/stringify-package-1.0.0.tgz#e02828089333d7d45cd8c287c30aa9a13375081b"
 
-stringstream@0.0.6, stringstream@~0.0.4, stringstream@~0.0.5:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.6.tgz#7880225b0d4ad10e30927d167a1d6f2fd3b33a72"
-  integrity sha512-87GEBAkegbBcweToUrdzf3eLhWNg06FJTebl4BVJz/JgWy8CvEr9dRtX5qWphiynMSQlxxi+QqN0z5T32SLlhA==
+stringstream@1.0.0, stringstream@~0.0.4, stringstream@~0.0.5:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-1.0.0.tgz#2f0b37e8beae208166560e75700a656beb379ab6"
+  integrity sha512-qplWI1mgLqGLV2vMTHi6gvfsZxuOSTf5VLfX9k1n3D9vORh3lJnbjD0+cTQqH63Ed1TLcN30zaoMB+g0T7CJZw==
 
 strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   version "3.0.1"
